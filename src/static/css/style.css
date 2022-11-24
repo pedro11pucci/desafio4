@@ -1,0 +1,38 @@
+header {
+  padding-bottom: 1.05%;
+  display: flex;
+  flex: auto;
+  padding-top: 2vh;
+}
+
+.menu {
+  margin-left: 23.3%;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+}
+
+#capa {
+  margin-left: 25%;
+  padding-bottom: 1%;
+}
+
+#logo {
+  margin-left: 25%;
+}
+
+section {
+  width: 900px;
+  margin-left: 25%;
+  font-size: 18px;
+}
+
+h5 {
+  margin-left: 40%;
+  padding-top: 2vh;
+}
