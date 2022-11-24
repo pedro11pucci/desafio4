@@ -4,5 +4,14 @@
   <h1>Mensagens recebidas</h1>
   <p>Lorem <b>ipsum dolor</b> sit amet consectetur, adipisicing elit. Quisquam rerum temporibus</p>
   <hr>
+  {% for mensagem in mensagens %}
+  <h4>Email: </h4>
+  <label>{{mensagem.email}}</label>
+  <h4>Assunto: </h4>
+  <label>{{mensagem.assunto}}</label>
+  <h4>Descrição: </h4>
+  <label>{{mensagem.descricao}}</label>
+  <hr>
+  {% endfor %}
 </section>
 {% endblock %}
